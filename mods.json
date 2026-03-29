@@ -1,16 +1,16 @@
 [
   {
     "specification": 1,
-    "id": "48df939f-97fb-4a41-b765-26bb6484e819",
-    "name": "Custom Icon Dummy Mod",
-    "description": "This is a dummy mod to test modding functionallity",
+    "id": "6c079d5c-b927-4e17-83b8-4e9f6f274765",
+    "name": "Bubblegum Icecream Ball",
+    "description": "This is a simple re-texture of the basic ball into a bubblegum icecream one.",
     "version": "1.0.0",
     "authors": [
       "Tandashi"
     ],
     "download": {
-      "url": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/raw/refs/heads/main/mods/custom-icon-dummy.zip",
-      "sha256": "973846d5c5e4d54ca74e33d68efe54d8d8736a9d337d4e6c8a841e87f59d00ff"
+      "url": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/raw/refs/heads/main/mods/ball-bubblegum-icecream.zip",
+      "sha256": "b2c9c31559c0d2c0704272ccb8296c1a715ee1a38abd0c9d0a588469df185ef6"
     },
     "repository": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods",
     "issues": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/issues",
@@ -20,9 +20,14 @@
     ],
     "files": [
       {
-        "guid": "3d992eb4-99a8ea92-c8c456a1-01d68dd3",
-        "source": "raw:///player_icon_pumpkin_half.png.import",
-        "target": "/out/data/custom_icon/icon_pumpkin_half.png.import"
+        "guid": "de76b040-345083a0-9065c1b1-01d56332",
+        "source": "texture:///albedo_0_modified.png",
+        "target": "/out/data/ball/basic_ball_albedo.png.import"
+      },
+      {
+        "guid": "de76b040-345083a0-94c975f1-01d56332",
+        "source": "texture:///normals_0_modified.png",
+        "target": "/out/data/ball/basic_ball_normals.png.import"
       }
     ]
   }
