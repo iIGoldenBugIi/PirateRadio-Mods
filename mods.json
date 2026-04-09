@@ -9,12 +9,45 @@
       "Tandashi"
     ],
     "download": {
-      "url": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/raw/refs/heads/main/mods/ball-bubblegum-icecream.zip",
+      "url": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/raw/refs/heads/main/mods/ball-bubblegum-icecream/ball-bubblegum-icecream.zip",
       "sha256": "b2c9c31559c0d2c0704272ccb8296c1a715ee1a38abd0c9d0a588469df185ef6"
     },
     "repository": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods",
     "issues": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/issues",
-    "readme": "https://raw.githubusercontent.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/refs/heads/main/mods/ball-bubblegum-icecream.md",
+    "readme": "https://raw.githubusercontent.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/refs/heads/main/mods/ball-bubblegum-icecream/ball-bubblegum-icecream.md",
+    "tags": [
+      "texture-swap",
+      "misc"
+    ],
+    "files": [
+      {
+        "guid": "de76b040-345083a0-9065c1b1-01d56332",
+        "source": "texture:///albedo_0_modified.png",
+        "target": "/out/data/ball/basic_ball_albedo.png.import"
+      },
+      {
+        "guid": "de76b040-345083a0-94c975f1-01d56332",
+        "source": "texture:///normals_0_modified.png",
+        "target": "/out/data/ball/basic_ball_normals.png.import"
+      }
+    ]
+  },
+  {
+    "specification": 1,
+    "id": "218e1789-71f0-48b8-8ab1-6ac370ea579b",
+    "name": "YingYang Ball",
+    "description": "A simple re-texture of the basic ball into a YingYang (Black/White) one.",
+    "version": "1.0.0",
+    "authors": [
+      "Alex (NoScope)"
+    ],
+    "download": {
+      "url": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/raw/refs/heads/main/mods/ball-yingyang/ball-yingyang.zip",
+      "sha256": "e2409a6b37c680bf15b5e46e685deea5d8682423f1c6ee07a737b62cb966dbb9"
+    },
+    "repository": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods",
+    "issues": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/issues",
+    "readme": "https://raw.githubusercontent.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/refs/heads/main/mods/ball-yingyang/ball-yingyang.md",
     "tags": [
       "texture-swap",
       "misc"

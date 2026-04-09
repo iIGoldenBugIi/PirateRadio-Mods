@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import { modDefinitionSchema } from './schema/schema';
 
-const modDefinitions = fs.readdirSync('./mods').filter(file => file.endsWith('.json'))
+const modDefinitions = (fs.readdirSync('./mods', { recursive: true }) as string[]).filter(file => file.endsWith('.json'))
   .flatMap(file => {
     const filePath = `./mods/${file}`;
     const modData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
