@@ -1,0 +1,33 @@
+{
+  "specification": 1,
+  "id": "d344409d-e102-41ef-8abe-de0a49d3f597",
+  "name": "Kirball",
+  "description": "A mod that replaces the color scheme for the basic ball with Kirby",
+  "version": "1.0.0",
+  "authors": [
+    "GoldenBug"
+  ],
+  "download": {
+    "url": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/raw/refs/heads/main/mods/ball-kirball/ball-kirball.zip",
+    "sha256": "b152d6941239d8173f203efbf98ec018f613edd4c2a6ff2a91eccc82eaabffa6"
+  },
+  "repository": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods",
+  "issues": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/issues",
+  "readme": "https://raw.githubusercontent.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/refs/heads/main/mods/ball-kirball/ball-kirball.md",
+  "tags": [
+    "texture-swap",
+    "misc"
+  ],
+  "files": [
+    {
+      "guid": "de76b040-345083a0-9065c1b1-01d56332",
+      "source": "texture:///albedo_0_modified.png",
+      "target": "/out/data/ball/basic_ball_albedo.png.import"
+    },
+    {
+      "guid": "de76b040-345083a0-94c975f1-01d56332",
+      "source": "texture:///normals_0_modified.png",
+      "target": "/out/data/ball/basic_ball_normals.png.import"
+    }
+  ]
+}

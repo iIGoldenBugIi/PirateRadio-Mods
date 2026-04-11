@@ -1,0 +1,33 @@
+{
+  "specification": 1,
+  "id": "311b2c35-64ee-4cca-adfe-d0ffff67a46a",
+  "name": "Sonic Adventure 2X Ball",
+  "description": "A simple re-texture of the basic ball that adds the icons of Sonic and Shadow",
+  "version": "1.0.0",
+  "authors": [
+    "GoldenBug"
+  ],
+  "download": {
+    "url": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/raw/refs/heads/main/mods/ball-sonic-adventure-2X/ball-sonic-adventure-2X.zip",
+    "sha256": "f8d36af68df3dbb59ad8277f644ff37da783472942863374f246c56f2b015358"
+  },
+  "repository": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods",
+  "issues": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/issues",
+  "readme": "https://raw.githubusercontent.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/refs/heads/main/mods/ball-sonic-adventure-2X/ball-sonic-adventure-2X.md",
+  "tags": [
+    "texture-swap",
+    "misc"
+  ],
+  "files": [
+    {
+      "guid": "de76b040-345083a0-9065c1b1-01d56332",
+      "source": "texture:///albedo_0_modified.png",
+      "target": "/out/data/ball/basic_ball_albedo.png.import"
+    },
+    {
+      "guid": "de76b040-345083a0-94c975f1-01d56332",
+      "source": "texture:///normals_0_modified.png",
+      "target": "/out/data/ball/basic_ball_normals.png.import"
+    }
+  ]
+}
