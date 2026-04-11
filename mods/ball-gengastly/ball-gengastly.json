@@ -1,0 +1,29 @@
+{
+  "specification": 1,
+
+  "id": "b42cbd27-2c87-408c-98fa-ffed37a9d463",
+  "name": "Gengastly Ball",
+  "description": "A mod that replaces the color scheme for the basic ball with the face of Gengar and Gastly",
+  "version": "1.0.0",
+  "authors": ["GoldenBug"],
+  "download": {
+    "url": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/raw/refs/heads/main/mods/ball-gengastly/ball-gengastly.zip",
+    "sha256": "9336da99ff0ba4331df739b71e976da29aa9946e37e6acad7216d31562609b2c"
+  },
+  "repository": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods",
+  "issues": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/issues",
+  "tags": ["texture-swap", "misc"],
+
+  "files": [
+    {
+      "guid": "de76b040-345083a0-9065c1b1-01d56332",
+      "source": "texture:///albedo_0_modified.png",
+      "target": "/out/data/ball/basic_ball_albedo.png.import"
+    },
+    {
+      "guid": "de76b040-345083a0-94c975f1-01d56332",
+      "source": "texture:///normals_0_modified.png",
+      "target": "/out/data/ball/basic_ball_normals.png.import"
+    }
+  ]
+}
