@@ -1,0 +1,33 @@
+{
+  "specification": 1,
+  "id": "5752ce85-1f7c-4653-89be-f1fdbba0c2f0",
+  "name": "SCP Foundation Ball",
+  "description": "A custom mod for the Basic ball replacing the normal image with the logo of the SCP Foundation.",
+  "version": "1.0.0",
+  "authors": [
+    "shorevomofen"
+  ],
+  "download": {
+    "url": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/raw/refs/heads/main/mods/ball-SCP/ball-SCP.zip",
+    "sha256": "78872937c892cd0defc5987b5479f2ba006a3f1e313b9fa2adc2f98368f767e8"
+  },
+  "repository": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods",
+  "issues": "https://github.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/issues",
+  "readme": "https://raw.githubusercontent.com/KnockoutCity-Pirate-Radio/PirateRadio-Mods/refs/heads/main/mods/ball-SCP/ball-SCP.md",
+  "tags": [
+    "texture-swap",
+    "misc"
+  ],
+  "files": [
+    {
+      "guid": "de76b040-345083a0-9065c1b1-01d56332",
+      "source": "texture:///albedo_0_modified.png",
+      "target": "/out/data/ball/basic_ball_albedo.png.import"
+    },
+    {
+      "guid": "de76b040-345083a0-94c975f1-01d56332",
+      "source": "texture:///normals_0_modified.png",
+      "target": "/out/data/ball/basic_ball_normals.png.import"
+    }
+  ]
+}
